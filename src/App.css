@@ -64,19 +64,9 @@ body {
 
 /* Media queries 767px */
 
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
   body {
     font-size: 16px;
-  }
-
-  .form {
-    width: 80%;
-  }
-
-  input,
-  textarea,
-  input[type="date"] {
-    width: 100%;
   }
 
   .task {
@@ -111,49 +101,4 @@ body {
   .task p {
     text-align: left;
   }
-}
-@media (max-width: 600px) {
-  .form {
-    display: flex;
-    width: 90%;
-    margin: 40px auto;
-    padding: 20px;
-    margin-bottom: 35px;
-
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--background-color-accent-1);
-    color: #fff;
-    border-radius: 20px;
-  }
-
-  label {
-    display: block;
-    margin-bottom: 8px;
-  }
-
-  input,
-  textarea {
-    width: 70%;
-    padding: 8px;
-    margin-bottom: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-
-  textarea {
-    padding: 8px;
-    margin-bottom: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: none;
-    overflow-y: auto;
-  }
-  input[type="date"] {
-    width: 70%;
-    padding: 8px;
-    margin-bottom: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-}
+} */
