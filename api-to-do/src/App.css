@@ -1,0 +1,114 @@
+:root {
+  --background-color-accent-1: #1e2b3e;
+  --background-color-accent-2: #020402;
+  --b-font: 5rem;
+
+  --h2-font: 3rem;
+  --p-font: 1rem;
+  --fontcolor: #fff;
+  --fontcolor-2: #ccc;
+  --accent-1: #ccc;
+  --accent-2: #06142e;
+  --accent-remove: rgb(160, 14, 23);
+  --accent-remove-hover: #400009ff;
+  --accent-1-hover: #121a26;
+  --accent-done: #4caf50;
+  --accent-done-hover: #22a527;
+}
+
+body {
+  position: relative;
+  margin-top: 35px;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  background-color: var(--background-color-accent-2);
+  font-weight: 600;
+  scroll-behavior: smooth;
+}
+/** SCROLLBAR**/
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--background-color-accent-2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background-color-accent-2);
+  border-radius: 10px;
+}
+
+::-moz-scrollbar {
+  width: 6px;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: var(--background-color-accent-2);
+  border-radius: 10px;
+}
+
+::-moz-scrollbar-track {
+  background-color: var(--background-color-accent-2);
+  border-radius: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .form-container {
+    margin-top: 20px;
+  }
+}
+
+/* */
+
+/* Media queries 767px */
+
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 16px;
+  }
+
+  .form {
+    width: 80%;
+  }
+
+  input,
+  textarea,
+  input[type="date"] {
+    width: 100%;
+  }
+
+  .task {
+    height: auto;
+  }
+
+  .task h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .task p {
+    margin-left: 10px;
+  }
+  .task:after {
+    display: none;
+  }
+
+  .task .edit-btn {
+    top: 5px;
+    right: 5px;
+  }
+
+  .task-header {
+    text-align: left;
+  }
+
+  .task-footer {
+    margin-top: 20px;
+  }
+
+  .task p {
+    text-align: left;
+  }
+}
