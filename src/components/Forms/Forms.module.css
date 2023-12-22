@@ -52,7 +52,8 @@ input[type="date"] {
   }
 
   .form {
-    width: 80%;
+    margin: 25px auto;
+    width: 50%;
   }
 
   input,
